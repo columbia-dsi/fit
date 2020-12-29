@@ -1,0 +1,20 @@
+{
+  "name": "max.io",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "latest",
+    "express": "^4.17.1",
+    "mime": ">=1.4.1",
+    "mongoose": ">=5.7.5",
+    "morgan": ">=1.9.1",
+    "serve-favicon": "~2.4.2",
+    "swagger-ui-express": "^1.0.8"
+  }
+}

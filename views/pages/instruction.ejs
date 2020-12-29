@@ -1,0 +1,52 @@
+<!-- views/pages/index.ejs -->
+
+<!doctype html>
+<html lang="en">
+<%- include('../includes/head') %>
+
+<body>
+  <script>
+    $(document).ready(function() {
+      $('#consent').scroll(function () {
+        if(scrollToEnd()){
+          showContent('#next-btn')
+        }else{ // If not visible
+          hideContent('#next-btn')
+        }
+      });
+    });
+  </script>
+  <div class="container">
+    <br/>
+    <div class="jumbotron">
+      <p style="text-align: center;">
+        <b>Instruction</b>
+        <br/>
+      </p>
+      <div id="consent" style="width: 100%; height: 200px; overflow-y: scroll;">
+        <p style="font-size: 15px;">
+          <br/>
+          <br/>
+          1. Use this home-based bodyweight exercise program generator by completing the following steps after the next page.
+          <br/>
+          <br/>
+          2. A complete individualized exercise program will be generated based on your inputs from these steps. 
+          <br/>
+          <br/>
+          3. A PDF document is available to download for saving the wanted program. 
+          <br/>
+          <br/>
+          4. A complete database of the most common equipment-free bodyweight exercises and instructional videos is available on the next page.
+
+          <br/>
+          <br/>
+
+        </p>
+      </div>
+      <div id="next-btn" style="padding:50px; text-align: center; display: none;"><a type="button" href="/options" class="btn btn-success">Next</a></div>
+    </div>
+    <%- include('../includes/footer') %>
+  </div>
+</body>
+
+</html>

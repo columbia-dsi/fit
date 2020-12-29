@@ -1,0 +1,205 @@
+type,group,name,link,level
+Warm-up,General Full-body Warm-up,Walking Back and Forth,,
+Warm-up,General Full-body Warm-up,Jumping Jacks,,
+Warm-up,General Full-body Warm-up,Walking Knee Hugs,,
+Warm-up,General Full-body Warm-up,Side Shuffles,,
+Warm-up,General Full-body Warm-up,Back Walking,,
+Warm-up,General Full-body Warm-up,Karaoke,,
+Warm-up,General Full-body Warm-up,High Knees,,
+Warm-up,General Full-body Warm-up,Jogging in Place,,
+Warm-up,General Full-body Warm-up,Side-to-side hops,,
+Warm-up,Lower-body Dynamic Stretches,Hip Circles*,,
+Warm-up,Lower-body Dynamic Stretches,Knee Circles*,,
+Warm-up,Lower-body Dynamic Stretches,Ankle Circles with Wrist Circles^,,
+Warm-up,Lower-body Dynamic Stretches,Hip Rotations^,,
+Warm-up,Lower-body Dynamic Stretches,Leg pendulum^,,
+Warm-up,Lower-body Dynamic Stretches,Alternate Butt Kicks^,,
+Warm-up,Lower-body Dynamic Stretches,Alternate Leg Kicks^,,
+Warm-up,Upper-body Dynamic Stretches,Arm Circles*,,
+Warm-up,Upper-body Dynamic Stretches,Alternate Arm Rotations^,,
+Warm-up,Upper-body Dynamic Stretches,Neck Tilts*,,
+Warm-up,Upper-body Dynamic Stretches,Chest Expansions*,,
+Warm-up,Upper-body Dynamic Stretches,Shoulder Internal/External Rotations^,,
+Warm-up,Upper-body Dynamic Stretches,Torso Rotations^,,Beginner
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Wall Push-ups,https://youtu.be/CobC0LNolTg,Beginner
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Leg Bent Floor Dips,,Beginner
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Body-elevated Push-ups,https://youtu.be/VvfTlJVBLWg,Beginner
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Box Push-ups,,Beginner
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Chest Press Squeeze,,Beginner
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Triceps Wall-Extension,https://youtu.be/_V0iBPUCNSA,Beginner
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Shoulder IYTWO,,Beginner
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Regular Push-ups,https://youtu.be/S6uV6pDJYNw,Intermediate
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Narrow Grip Push-ups,https://youtu.be/J0x0a-q5qxo,Intermediate
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Wide Grip Push-ups,https://youtu.be/uQ2114D98rs,Intermediate
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Chair Dips,https://youtu.be/FIWqFAWOB7s,Intermediate
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Spiderman Push-ups,,Intermediate
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Frog Push-ups,https://youtu.be/WkbI-evdsU4,Intermediate
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),X Push-ups,https://youtu.be/8s_VgaJyDUc,Intermediate
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Dolphin Push-up,,Intermediate
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Pike Shoulder Press,,Intermediate
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Bouncing Push-ups,,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Clapping Push-ups,,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Diamond Push-ups,https://youtu.be/g3iXd5DbfLk,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Feet-elevated Push-ups,https://youtu.be/WCc-1ZiKtDw,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Mixed Grip Push-ups,,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Horse Push-ups,,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Stretch Push-ups,,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Side-to-Side Push-ups,,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Hindu Push-ups,,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Elevated Pike Shoulder Press,,Advanced
+Resistance,Upper Body Extensors (Chest/Triceps/Shoulders),Triceps Extension,,Advanced
+Resistance,Upper Body Flexors (Back and Biceps),Towel Rows,,Beginner
+Resistance,Upper Body Flexors (Back and Biceps),Bent Over Arm Raise,,Beginner
+Resistance,Upper Body Flexors (Back and Biceps),Towel Shrugs,,Beginner
+Resistance,Upper Body Flexors (Back and Biceps),Towel Lat Pull-downs,,Beginner
+Resistance,Upper Body Flexors (Back and Biceps),Towel W Raises,,Beginner
+Resistance,Upper Body Flexors (Back and Biceps),Rhomboid Pulls,,Beginner
+Resistance,Upper Body Flexors (Back and Biceps),Door Frame Rows,,Intermediate
+Resistance,Upper Body Flexors (Back and Biceps),Towel Curls,,Intermediate
+Resistance,Upper Body Flexors (Back and Biceps),Lying Lat-pull with Towel,,Intermediate
+Resistance,Upper Body Flexors (Back and Biceps),Plank Rows,,Intermediate
+Resistance,Upper Body Flexors (Back and Biceps),Good Mornings,,Intermediate
+Resistance,Upper Body Flexors (Back and Biceps),Auqaman,,Intermediate
+Resistance,Upper Body Flexors (Back and Biceps),Lying Back Extension,,Intermediate
+Resistance,Upper Body Flexors (Back and Biceps),Superman,,Advanced
+Resistance,Upper Body Flexors (Back and Biceps),Reverse Snow Angels,,Advanced
+Resistance,Upper Body Flexors (Back and Biceps),Reacher Rows,,Advanced
+Resistance,Upper Body Flexors (Back and Biceps),Wall Walks,,Advanced
+Resistance,Upper Body Flexors (Back and Biceps),Scapular Push-ups,,Advanced
+Resistance,Upper Body Flexors (Back and Biceps),One-arm Doorway Rows#,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Chair Squats,,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Squats,https://youtu.be/K7UlbfUEwxA,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Wall Sit^,,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Towel Deadlifts,,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Assisted Lunges#,,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Glute Bridges,,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Donkey Kicks,,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Fire Hydrants,,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Calf Raises,,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Reverse Calf Raises,,Beginner
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Lunges#,https://youtu.be/AICnIGfwxc4,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Static Lunges#,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Single-leg Towel Deadlifts#,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Chair Step Ups#,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Hip Thrusts,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Reverse Lunges#,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Side Lunges#,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Hamstring Bridges,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Single-leg Calf Raises#,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Single-leg Reverse Calf Raises#,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Single-leg Glute Bridges#,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Sumo Squats,,Intermediate
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Assisted Single Leg Squat#,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Single Leg Chair Squat#,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Bulgarian Split Squat#,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Single-leg Thrusts#,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Single-leg Hamstrings Bridge#,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Single-Leg Skater Squat#,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Sissy Squat,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Russian Leg Curls,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Curtsy Lunge#,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Falling Tower,,Advanced
+Resistance,Lower Body (Thighs/Glutes/Hamstrings),Single Leg Squat#,https://youtu.be/R4h8MwnbO3U,Advanced
+Resistance,Core Abs and Lower Back,Curl-ups,,Beginner
+Resistance,Core Abs and Lower Back,Crunches with Arms across Chest,,Beginner
+Resistance,Core Abs and Lower Back,Russain Twists,,Beginner
+Resistance,Core Abs and Lower Back,Bird Dog,,Beginner
+Resistance,Core Abs and Lower Back,Heel Touch,,Beginner
+Resistance,Core Abs and Lower Back,Modified Abdominal Crunches,,Beginner
+Resistance,Core Abs and Lower Back,Sit-ups,,Beginner
+Resistance,Core Abs and Lower Back,Plank Holds^,,Intermediate
+Resistance,Core Abs and Lower Back,Side Plank^,,Intermediate
+Resistance,Core Abs and Lower Back,Leg Raises,,Intermediate
+Resistance,Core Abs and Lower Back,Crunches with Arms behind the Ears,,Intermediate
+Resistance,Core Abs and Lower Back,Rotational Sit Ups#,,Intermediate
+Resistance,Core Abs and Lower Back,Crossover Crunches,,Intermediate
+Resistance,Core Abs and Lower Back,Handcuffed Running,,Intermediate
+Resistance,Core Abs and Lower Back,Windshield Wiper with Legs Bent,,Intermediate
+Resistance,Core Abs and Lower Back,Toes Touch,,Intermediate
+Resistance,Core Abs and Lower Back,GrassHoppers,,Intermediate
+Resistance,Core Abs and Lower Back,Straight-arm Plank,,Intermediate
+Resistance,Core Abs and Lower Back,V Sit-ups,,Advanced
+Resistance,Core Abs and Lower Back,V-up hold,,Advanced
+Resistance,Core Abs and Lower Back,Side Bridges,,Advanced
+Resistance,Core Abs and Lower Back,Helicopter,,Advanced
+Resistance,Core Abs and Lower Back,Flutter Kicks,,Advanced
+Resistance,Core Abs and Lower Back,Scissors,,Advanced
+Resistance,Core Abs and Lower Back,Cocoons,,Advanced
+Resistance,Core Abs and Lower Back,Side Plank with Leg Lift#,,Advanced
+Resistance,Core Abs and Lower Back,Windshield Wiper,,Advanced
+Resistance,Core Abs and Lower Back,Reverse Crunches?,,Advanced
+Aerobic,,Inchworm,,Beginner
+Aerobic,,Jumping Jacks,https://youtu.be/Naa6M4XJC9E,Beginner
+Aerobic,,Seal Jacks,,Beginner
+Aerobic,,Cross-body Jumping Jack,,Beginner
+Aerobic,,Skaters,,Beginner
+Aerobic,,Sprinter's Arm Swing,,Beginner
+Aerobic,,Skier's Arm Swing,,Beginner
+Aerobic,,Slam,,Beginner
+Aerobic,,Rotational Chop,,Beginner
+Aerobic,,Diagonal Chop,,Beginner
+Aerobic,,Power Skips,,Beginner
+Aerobic,,Butt Kicks,,Beginner
+Aerobic,,Bear Crawl,,Beginner
+Aerobic,,Side Shuffles,,Beginner
+Aerobic,,High Knees,https://youtu.be/3debAGgZOew,Beginner
+Aerobic,,Running in Place,,Beginner
+Aerobic,,Front to back Hops,,Beginner
+Aerobic,,Side-to-side Hops,,Beginner
+Aerobic,,Punches,,Beginner
+Aerobic,,Pogo Jumps,,Beginner
+Aerobic,,Plank Jacks,,Beginner
+Aerobic,,Mountain Climbers,,Intermediate
+Aerobic,,Wide Mountain Climbers,,Intermediate
+Aerobic,,Semi-circle Mountain Climbers,,Intermediate
+Aerobic,,Alternating Single-leg Pogo Jumps,,Intermediate
+Aerobic,,Skaters,,Intermediate
+Aerobic,,Plank Shoulder Taps,,Intermediate
+Aerobic,,Halo Slam,,Intermediate
+Aerobic,,Low Rotational Chop,,Intermediate
+Aerobic,,Lateral 3-steps,,Intermediate
+Aerobic,,Super Skaters Jumps,,Intermediate
+Aerobic,,In-and-out Squat,,Intermediate
+Aerobic,,Modified Burpee?,,Intermediate
+Aerobic,,Long Jump with Jog Back,,Intermediate
+Aerobic,,Sprinter Step,,Intermediate
+Aerobic,,High-Knee Run,,Intermediate
+Aerobic,,Plank-to-knee tap,,Intermediate
+Aerobic,,Karate Squat,,Intermediate
+Aerobic,,Tuck Jump,,Advanced
+Aerobic,,Side-to-side Mountain Climbers,,Advanced
+Aerobic,,Alternating Fast Feet,,Advanced
+Aerobic,,Double Fast Feet,,Advanced
+Aerobic,,Speed Walk-out,,Advanced
+Aerobic,,Breaker Dance,,Advanced
+Aerobic,,Diagonal Mountain Climbers,,Advanced
+Aerobic,,Drop Squats,,Advanced
+Aerobic,,Sprinter Skip,,Advanced
+Aerobic,,Corkscrew,,Advanced
+Aerobic,,Rolling Squat Jump,,Advanced
+Aerobic,,Single-leg hop,,Advanced
+Aerobic,,T-rotation,,Advanced
+Aerobic,,Crab Walk,,Advanced
+Aerobic,,Donkey Kicks,,Advanced
+Aerobic,,Lunge jump,,Advanced
+Aerobic,,Squat Reach Jumps,,Advanced
+Aerobic,,Burpees,,
+Static,,Neck Stretch,,
+Static,,Triceps Stretch,,
+Static,,Side Stretch,,
+Static,,Low-back Stretch,,
+Static,,Hamstring Stretch,,
+Static,,Piriformis Stretch,,
+Static,,Extended Puppy Pose,,
+Static,,Chest Stretch,,
+Static,,Biceps Stretch,,
+Static,,Abdominal Stretch,,
+Static,,Glutes Stretch,,
+Static,,Calf Stretch,,
+Static,,Figure Four Stretch,,
+Static,,Cross-body Shoulder Stretch,,
+Static,,Wrist Stretch,,
+Static,,Reclined Spinal Twist,,
+Static,,Quadriceps Stretch,,
+Static,,Knee to Chest Stretch,,
+Static,,Lunging Hip Flexor Stretch,,

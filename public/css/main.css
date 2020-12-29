@@ -1,0 +1,24 @@
+.center {
+  align-items: center;
+  align-self: center;
+  text-align: center;
+}
+
+img {
+  width: 49%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+.section {
+  display: none;
+}
+
+
+.active {
+  display: block;
+}

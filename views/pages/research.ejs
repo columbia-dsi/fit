@@ -1,0 +1,160 @@
+<html>
+
+<%- include('../includes/head') %>
+
+<body>
+  <script>
+     var consent=0;
+     var q = 1;
+     $(document).ready(function() {
+      
+      $('#question-'+q).show(100);
+    })
+    function updateConsent(i){
+      consent=i;
+      if(consent===1){
+        showContent('#next-1')
+      }else{ // If not visible
+        hideContent('#next-1')
+      }
+    }
+  </script>
+  <div>
+    <div class="container">
+      <div class="jumbotron">
+      <form class="form-horizontal" role="form" method="POST" action="/submit">       
+
+        <div id="question-1" class="section">
+          <p style="text-align: center;">
+            <b>Step 1 - Prior to the exercise</b>
+          </p>
+          <br/>
+          <p>
+            I have completed the pre-physical activity screening, such as the 
+            <a target="_blank" href="https://www.acsm.org/docs/default-source/files-for-resource-library/par-q-acsm.pdf">Physical Activity Readiness Questionnaire for Everyone (PAR-Q+)</a>. I have had a proper set-up and a safe area to workout at home.
+          </p>
+          <div class="form-group">
+              <div class="col-sm-8">
+                  <input type="radio" name="q-1" value="1" required onclick="updateConsent(1)"> Yes &nbsp;&nbsp;
+                  <br/>
+                  <input type="radio" name="q-1" value="0" onclick="updateConsent(0)"> No &nbsp;&nbsp;
+              </div>
+          </div>
+          <div style="text-align: center;">
+                  <button id="next-1" name="next" type="button" value="next" class="btn btn-success" style="display: none; " onclick="goNext(1)">Next</button>
+          </div>
+        </div>
+
+        <div id="question-2" class="section">
+          <p style="text-align: center;">
+            <b>Step 2 - What is your goal?</b>
+          </p>
+          <div class="form-group">
+            <div class="col-sm-8">
+              <input type="radio" name="q-2" value="Strength" required> Strength: My goal is to build up muscle mass and improve my overall "strongness."
+              <br/>
+              <input type="radio" name="q-2" value="Toning"> Toning Up: My goal is to shape my body up and improve both my strength and cardio health.
+              <br/>
+              <input type="radio" name="q-2" value="Cardio"> Cardio: My goal is to build up my heart and lung functioning and lose weight.
+              <br/>
+              <input type="radio" name="q-2" value="Random"> Random: I do not know my schedule. Please randomly choose one for me!
+            </div>
+          </div> 
+          <br/>
+          <div style="text-align: center;">
+             <button id="next-2" name="next" type="button" value="next" class="btn btn-success" onclick="goNext(2)">Next</button>
+          </div>
+        </div>
+
+
+        <div id="question-3" class="section">
+          <p style="text-align: center;">
+            <b>Step 3 - What is your time availability?</b>
+          </p>
+          <div class="form-group">
+            <div class="col-sm-8">
+              <input type="radio" name="q-3" value="Little" required> Little: I can only exercise two to three days each week, less than half an hour each time.
+              <br/>
+              <input type="radio" name="q-3" value="Some"> Some: I have time to exercise three to four days each week, roughly half an hour to forty minutes each time.
+              <br/>
+              <input type="radio" name="q-3" value="A lot"> A lot: I want to exercise almost every day! That is five days a week, up to an hour each time.
+              <br/>
+              <input type="radio" name="q-3" value="Random"> Random: I do not know my schedule. Please randomly choose one for me!
+            </div>
+          </div> 
+          <br/>    
+          <div style="text-align: center;">
+             <button id="next-3" name="next" type="button" value="next" class="btn btn-success" onclick="goNext(3)">Next</button>
+          </div>
+        </div>
+
+
+        <div id="question-4" class="section">
+          <p style="text-align: center;">
+            <b>Step 4 - What is your exercise level?</b>
+          </p>
+          <br/>
+          <p>
+            Please complete the <a target="_blank" href="https://www.ons.org/sites/default/files/Godin%20Leisure-Time%20Exercise%20Questionnaire_070815.pdf">Godin Leisure-Time Exercise Questionnaire</a> and choose one of the following options that best represents your exercise level. The exercise intensity will be automatically generated based on the individual level.
+          </p>
+          <div class="form-group">
+            <div class="col-sm-8">
+              <input type="radio" name="q-4" value="Beginner" required> Beginner: Less than 14 units. 
+              <br/>
+              <input type="radio" name="q-4" value="Intermediate"> Intermediate: 14-23 units.
+              <br/>
+              <input type="radio" name="q-4" value="Advanced"> Advanced: 24 units or more.
+              <br/>
+              <input type="radio" name="q-4" value="Random"> Random: I do not know my level. Please randomly choose one for me!
+            </div>
+          </div> 
+          <br/>
+          <div style="text-align: center;">
+             <button id="next-4" name="next" type="button" value="next" class="btn btn-success" onclick="goNext(4)">Next</button>
+          </div>
+        </div>
+
+
+        <div id="question-5" class="section">
+          <!-- optional -->
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="name" name="name" placeholder="(optional)First & Last Name" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" name="email" placeholder="(optional)example@domain.com" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message" class="col-sm-2 control-label">Feedbacks</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" rows="4" name="message"></textarea>
+            </div>
+          </div>
+          <!-- last -->
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+              <input id="submit" name="submit" type="submit" value="Submit" class="btn btn-success">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+              <! Will be used to display an alert to the user>
+            </div>
+          </div>
+        </div>  
+        
+        
+      </form>
+      </div>
+      <%- include('../includes/footer') %>
+    </div>
+  </div>
+</body>
+
+</html>
