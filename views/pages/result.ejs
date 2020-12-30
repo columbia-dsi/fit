@@ -72,7 +72,7 @@
                          <% for(var i=0; i<e.content.list.core.day1.length; i++) { %>
                           <tr>
                               <td><%= e.content.list.core.day1[i].name %></td>
-                              <td><%= e.content.answer.time == 'Little' ? 1 : (e.content.answer.goal == 'Some' ? 2 : 3) %></td>
+                              <td><%= e.content.answer.time == 'A lot' ? 2 : 1 %></td>
                               <td><%= e.content.answer.goal == 'Strength' ? '8-12 reps' : (e.content.answer.goal == 'Toning' ? 'AMAP up to 20 reps' : '12-15 reps') %></td>
                               <td><%= e.content.answer.time == 'Little' ? '~ 20-30 minutes per session 3 times a week' : (e.content.answer.goal == 'Some' ? '~ 30-45 minutes per session 4 times a week' : '~ 45-60 minutes per session 5 times a week') %></td>
                               <td><%= e.content.answer.level == 'Beginner' ? '~ 30-45s working time + 75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>

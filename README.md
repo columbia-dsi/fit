@@ -25,3 +25,13 @@ Home-based Bodyweight Exercise Program Generator Tool, powered by Node.
 > Logic: https://docs.google.com/document/d/1oqxJvXpkOwV_t94hovCT_4hb7qOXn2BUcoCDJWQ8m8M/edit
 
 > Data: https://docs.google.com/document/d/1To-Cvm2Aj5Nd6YjWhlZejKs1KutUdkmKTQuEuyAfLcU/edit
+
+# Deployment
+
+> https://home-exercise.azurewebsites.net
+
+S1
+100 total ACU
+1.75 GB memory
+A-Series compute equivalent
+43.80 USD/Month (Estimated)
