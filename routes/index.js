@@ -49,17 +49,17 @@ router.get('/options', function(req, res, next) {
   res.render('pages/options', { title: 'Express' });
 });
 
-router.get('/research', auth, function(req, res, next) {
+router.get('/research', function(req, res, next) {
   res.render('pages/research', { title: 'Express' });
 });
 
-router.get('/list', auth, function(req, res, next) {
+router.get('/list', function(req, res, next) {
   answerController.getList(function(e){
     res.render('pages/list', { e: e });
   });  
 });
 
-router.post('/submit', auth, function(req, res, next) {
+router.post('/submit', function(req, res, next) {
   //console.log(req.body)
   answerController.createAnswer(req.body, function(e){
     res.render('pages/result', { e: e });

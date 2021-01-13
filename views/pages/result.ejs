@@ -20,16 +20,16 @@
           <h2> Here is your Individualized Exercise Program </h2>
           <b>Instructions</b>
           <p style="text-align: left;">
-            1. This exercise program is generated based on your previously inputs.<br/>
+            1. This exercise program is generated based on your previous inputs.<br/>
             2. Safety first! Always ensure the surrounding is hazard-free to workout.<br/>
-            3. Do this program at your convenience and finish all training days within 7 days if possible.<br/>
-            4. Always start with warm-up followed by the main workout, then the cool-down. The static stretches can be done anywhere at any time, not just during the cool-down.<br/>
-            5. Click each exercise’s hyperlink and it will direct to the corresponding instruction video files. <br/>
-            6. If you do not like a certain automatically generated exercise or you feel it is too hard to do, simply go to our exercise database to select an exercise in the same muscle group at your preference.<br/>
+            3. Do this program at your convenience and finish all training days within seven days if possible.<br/>
+            4. Always start with a warm-up, followed by the main workout, then the cool-down. The static stretches can be done anywhere at any time, not just during the cool-down. For exercises with the symbol "#," perform these exercises with the same repetitions on each side. Abdominal exercises with the symbol "^," hold as long as possible.<br/>
+            5. Click each exercise's hyperlink, and it will direct you to the corresponding instruction video files. <br/>
+            6. If you do not like a particular automatically generated exercise or feel it is too hard to do, go to our exercise database to swap an exercise in the same muscle group at your preference.<br/>
             7. For all exercises, do it at your preferred speed to ensure the most fitted intensity.<br/>
             8. We recommend sticking to the same program for at least four weeks. <br/>
-            9. For progression, if a certain exercise can be done with little to none strenuous efforts by the time, consider increasing the repetitions, speed of the exercise or replace it with a more advanced exercise in our database.<br/>
-            10. To save or print this program, right click the page and choose print. In the destination box, choose either a printer or save as PDF. <br/>        
+            9. For progression, if a particular exercise can be done with little to none strenuous efforts by the time, consider increasing the repetitions, speed or replace it with a more advanced exercise in our database.<br/>
+            10. To save or print this program, right-click the page and choose the Print icon. In the destination box, choose either a printer or save it as a PDF. <br/>        
           </p>
           <b>Goal: <%= e.content.answer.goal %> / Time: <%= e.content.answer.time %> / Level: <%= e.content.answer.level %></b>
           <div class="table-responsive">
@@ -46,8 +46,8 @@
                 <tbody>
                     <% for(var i=0; i<e.content.list.warm.length; i++) { %>
                       <tr>
-                          <td><%= e.content.list.warm[i].name %></td>
-                          <td><%= e.content.answer.time == 'Little' ? 1 : (e.content.answer.goal == 'Some' ? 2 : 3) %></td>
+                          <td><a target="_blank" href=<%= e.content.list.warm[i].link %>><%= e.content.list.warm[i].name %></a></td>
+                          <td><%= e.content.answer.time == 'A lot' ? 2 : 1 %></td>
                           <td><%= i%2==0 ? '45s' : '10 reps each side or 20 reps in total' %></td>
                           <td>15s</td>
                       </tr>
@@ -64,18 +64,16 @@
                           <th>Exercise</th>
                           <th>Sets</th>
                           <th>Repetitions</th>
-                          <th>Time</th>
-                          <th>Working/Rest</th>
+                          <th>Rest</th>
                       </tr>
                   </thead>
                   <tbody>
                          <% for(var i=0; i<e.content.list.core.day1.length; i++) { %>
                           <tr>
-                              <td><%= e.content.list.core.day1[i].name %></td>
-                              <td><%= e.content.answer.time == 'A lot' ? 2 : 1 %></td>
+                              <td><a target="_blank" href=<%= e.content.list.core.day1[i].link %>><%= e.content.list.core.day1[i].name %></a></td>
+                              <td><%= e.content.answer.time == 'Little' ? 1 : (e.content.answer.goal == 'Some' ? 2 : 3) %></td>
                               <td><%= e.content.answer.goal == 'Strength' ? '8-12 reps' : (e.content.answer.goal == 'Toning' ? 'AMAP up to 20 reps' : '12-15 reps') %></td>
-                              <td><%= e.content.answer.time == 'Little' ? '~ 20-30 minutes per session 3 times a week' : (e.content.answer.goal == 'Some' ? '~ 30-45 minutes per session 4 times a week' : '~ 45-60 minutes per session 5 times a week') %></td>
-                              <td><%= e.content.answer.level == 'Beginner' ? '~ 30-45s working time + 75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
+                              <td><%= e.content.answer.level == 'Beginner' ? '75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
                           </tr>
                           <% } %>                                 
                   </tbody>
@@ -89,18 +87,16 @@
                           <th>Exercise</th>
                           <th>Sets</th>
                           <th>Repetitions</th>
-                          <th>Time</th>
-                          <th>Working/Rest</th>
+                          <th>Rest</th>
                       </tr>
                   </thead>
                   <tbody>
                          <% for(var i=0; i<e.content.list.core.day2.length; i++) { %>
                           <tr>
-                              <td><%= e.content.list.core.day2[i].name %></td>
+                              <td><a target="_blank" href=<%= e.content.list.core.day2[i].link %>><%= e.content.list.core.day2[i].name %></a></td>
                               <td><%= e.content.answer.time == 'Little' ? 1 : (e.content.answer.goal == 'Some' ? 2 : 3) %></td>
                               <td><%= e.content.answer.goal == 'Strength' ? '8-12 reps' : (e.content.answer.goal == 'Toning' ? 'AMAP up to 20 reps' : '12-15 reps') %></td>
-                              <td><%= e.content.answer.time == 'Little' ? '~ 20-30 minutes per session 3 times a week' : (e.content.answer.goal == 'Some' ? '~ 30-45 minutes per session 4 times a week' : '~ 45-60 minutes per session 5 times a week') %></td>
-                              <td><%= e.content.answer.level == 'Beginner' ? '~ 30-45s working time + 75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
+                              <td><%= e.content.answer.level == 'Beginner' ? '75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
                           </tr>
                           <% } %>                                 
                   </tbody>
@@ -114,18 +110,16 @@
                           <th>Exercise</th>
                           <th>Sets</th>
                           <th>Repetitions</th>
-                          <th>Time</th>
-                          <th>Working/Rest</th>
+                          <th>Rest</th>
                       </tr>
                   </thead>
                   <tbody>
                          <% for(var i=0; i<e.content.list.core.day3.length; i++) { %>
                           <tr>
-                              <td><%= e.content.list.core.day3[i].name %></td>
+                              <td><a target="_blank" href=<%= e.content.list.core.day3[i].link %>><%= e.content.list.core.day3[i].name %></a></td>
                               <td><%= e.content.answer.time == 'Little' ? 1 : (e.content.answer.goal == 'Some' ? 2 : 3) %></td>
                               <td><%= e.content.answer.goal == 'Strength' ? '8-12 reps' : (e.content.answer.goal == 'Toning' ? 'AMAP up to 20 reps' : '12-15 reps') %></td>
-                              <td><%= e.content.answer.time == 'Little' ? '~ 20-30 minutes per session 3 times a week' : (e.content.answer.goal == 'Some' ? '~ 30-45 minutes per session 4 times a week' : '~ 45-60 minutes per session 5 times a week') %></td>
-                              <td><%= e.content.answer.level == 'Beginner' ? '~ 30-45s working time + 75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
+                              <td><%= e.content.answer.level == 'Beginner' ? '75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
                           </tr>
                           <% } %>                                 
                   </tbody>
@@ -139,18 +133,16 @@
                             <th>Exercise</th>
                             <th>Sets</th>
                             <th>Repetitions</th>
-                            <th>Time</th>
-                            <th>Working/Rest</th>
+                            <th>Rest</th>
                         </tr>
                     </thead>
                     <tbody>
                            <% for(var i=0; i<e.content.list.core.day4.length; i++) { %>
                             <tr>
-                                <td><%= e.content.list.core.day4[i].name %></td>
+                                <td><a target="_blank" href=<%= e.content.list.core.day4[i].link %>><%= e.content.list.core.day4[i].name %></a></td>
                                 <td><%= e.content.answer.time == 'Little' ? 1 : (e.content.answer.goal == 'Some' ? 2 : 3) %></td>
                                 <td><%= e.content.answer.goal == 'Strength' ? '8-12 reps' : (e.content.answer.goal == 'Toning' ? 'AMAP up to 20 reps' : '12-15 reps') %></td>
-                                <td><%= e.content.answer.time == 'Little' ? '~ 20-30 minutes per session 3 times a week' : (e.content.answer.goal == 'Some' ? '~ 30-45 minutes per session 4 times a week' : '~ 45-60 minutes per session 5 times a week') %></td>
-                                <td><%= e.content.answer.level == 'Beginner' ? '~ 30-45s working time + 75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
+                                <td><%= e.content.answer.level == 'Beginner' ? '75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
                             </tr>
                             <% } %>                                 
                     </tbody>
@@ -165,18 +157,16 @@
                             <th>Exercise</th>
                             <th>Sets</th>
                             <th>Repetitions</th>
-                            <th>Time</th>
-                            <th>Working/Rest</th>
+                            <th>Rest</th>
                         </tr>
                     </thead>
                     <tbody>
                            <% for(var i=0; i<e.content.list.core.day4.length; i++) { %>
                             <tr>
-                                <td><%= e.content.list.core.day4[i].name %></td>
+                                <td><a target="_blank" href=<%= e.content.list.core.day4[i].link %>><%= e.content.list.core.day4[i].name %></a></td>
                                 <td><%= e.content.answer.time == 'Little' ? 1 : (e.content.answer.goal == 'Some' ? 2 : 3) %></td>
                                 <td><%= e.content.answer.goal == 'Strength' ? '8-12 reps' : (e.content.answer.goal == 'Toning' ? 'AMAP up to 20 reps' : '12-15 reps') %></td>
-                                <td><%= e.content.answer.time == 'Little' ? '~ 20-30 minutes per session 3 times a week' : (e.content.answer.goal == 'Some' ? '~ 30-45 minutes per session 4 times a week' : '~ 45-60 minutes per session 5 times a week') %></td>
-                                <td><%= e.content.answer.level == 'Beginner' ? '~ 30-45s working time + 75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
+                                <td><%= e.content.answer.level == 'Beginner' ? '75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
                             </tr>
                             <% } %>                                 
                     </tbody>
@@ -189,25 +179,21 @@
                           <th>Exercise</th>
                           <th>Sets</th>
                           <th>Repetitions</th>
-                          <th>Time</th>
-                          <th>Working/Rest</th>
+                          <th>Rest</th>
                       </tr>
                   </thead>
                   <tbody>
                          <% for(var i=0; i<e.content.list.core.day5.length; i++) { %>
                           <tr>
-                              <td><%= e.content.list.core.day5[i].name %></td>
+                              <td><a target="_blank" href=<%= e.content.list.core.day5[i].link %>><%= e.content.list.core.day5[i].name %></a></td>
                               <td><%= e.content.answer.time == 'Little' ? 1 : (e.content.answer.goal == 'Some' ? 2 : 3) %></td>
                               <td><%= e.content.answer.goal == 'Strength' ? '8-12 reps' : (e.content.answer.goal == 'Toning' ? 'AMAP up to 20 reps' : '12-15 reps') %></td>
-                              <td><%= e.content.answer.time == 'Little' ? '~ 20-30 minutes per session 3 times a week' : (e.content.answer.goal == 'Some' ? '~ 30-45 minutes per session 4 times a week' : '~ 45-60 minutes per session 5 times a week') %></td>
-                              <td><%= e.content.answer.level == 'Beginner' ? '~ 30-45s working time + 75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
+                              <td><%= e.content.answer.level == 'Beginner' ? '75-90s rest' : (e.content.answer.goal == 'Intermediate' ? '~ 45-60s working time + 60-75s rest' : '~ 75-90s working time + 30-45s rest') %></td>
                           </tr>
                           <% } %>                                 
                   </tbody>
               </table>
               <%} %>
-
-
 
 
               <h3>Cool Down (5 Minutes)</h3>
