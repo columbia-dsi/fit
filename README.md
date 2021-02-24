@@ -6,7 +6,8 @@ Home-based Bodyweight Exercise Program Generator Tool, powered by Node.
 #### Install dependencies:
 > cd fit && npm install
 
-#### On MacOS or Linux, run the app with this command:
+
+#### After you add your config file, On MacOS or Linux, run the app with this command:
 > npm start
   
 #### On Windows, use this command:
